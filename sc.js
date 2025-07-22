@@ -72,7 +72,7 @@ document.addEventListener("click", function (e) {
 		new TypeIt(".titleC", {
 	    strings: [vjudul],
 	    startDelay: 250,
-	    speed: 27,
+	    speed: 50,
 	    cursor: true,
 	    afterComplete: function(){      
 	      	//clearInterval(scrollInterval);
@@ -85,7 +85,7 @@ document.addEventListener("click", function (e) {
 		new TypeIt(".messageC", {
 	    strings: [vmessage],
 	    startDelay: 1,
-	    speed: 30,
+	    speed: 50,
 	    cursor: true,
 	    afterComplete: function(){      
 	      	clearInterval(scrollInterval);
@@ -108,7 +108,7 @@ document.addEventListener("click", function (e) {
                     "<br>" + pesanSurat3.innerHTML,
 				 ],
         startDelay: 1,
-        speed: 28,
+        speed: 50,
         cursor: true,
         breakLines: true,
         waitUntilVisible: true,
